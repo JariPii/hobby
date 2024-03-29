@@ -62,16 +62,12 @@ h4 {
 
 @keyframes animateText {
   0%,
-  20% {
-    color: rgb(122, 122, 4);
+  49% {
+    color: black;
   }
-  21%,
-  79% {
-    color: yellow;
-  }
-  80%,
+  50%,
   100% {
-    color: rgb(122, 122, 4);
+    color: yellow;
   }
 }
 
