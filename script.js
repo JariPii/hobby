@@ -23,3 +23,16 @@ let jSpans = joker.innerText
 
 joker.innerHTML = jSpans;
 console.log(jSpans);
+
+let batText = document.querySelector('.sub-text');
+
+let batSpans = batText.innerText
+  .split('')
+  .map((letter, i) => {
+    return `<span style= "animation-duration: ${
+      Math.random() * 5
+    }s; filter:hue-rotate(${i * 50}deg">${letter}</span>`;
+  })
+  .join('');
+
+batText.innerHTML = batSpans;
