@@ -31,3 +31,12 @@ h2:hover span {
   color: yellow;
   text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
 }
+
+h4 {
+  position: relative;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  cursor: default;
+  text-transform: uppercase;
+  font-weight: 500;
+}
