@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100svh;
-  background-color: gray;
+  background-color: #222;
 }
 
 h2 {
@@ -19,4 +19,14 @@ h2 {
   cursor: default;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+h2 span {
+  color: #555;
+  transition: 0.25s;
+}
+
+h2:hover span {
+  color: yellow;
+  text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
 }
