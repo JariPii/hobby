@@ -49,6 +49,8 @@ h3 span {
 h3:hover span {
   color: purple;
   transition: 0.25d;
+  color: purple;
+  transition: 0.25d;
 }
 
 h4 {
@@ -58,24 +60,27 @@ h4 {
   cursor: default;
   text-transform: uppercase;
   font-weight: 500;
+  color: whitesmoke;
 }
 
-/* h4 span {
+h4 span {
   transition: 0.25s;
-} */
+}
 
 @keyframes animateText {
   0%,
   20% {
-    color: rgb(122, 122, 4);
+    color: #fff2;
   }
+
   21%,
   79% {
-    color: yellow;
+    color: #0f0;
   }
+
   80%,
   100% {
-    color: rgb(122, 122, 4);
+    color: #fff2;
   }
 }
 
