@@ -49,8 +49,6 @@ h3 span {
 h3:hover span {
   color: purple;
   transition: 0.25d;
-  color: purple;
-  transition: 0.25d;
 }
 
 h4 {
@@ -60,6 +58,7 @@ h4 {
   cursor: default;
   text-transform: uppercase;
   font-weight: 500;
+  color: whitesmoke;
 }
 
 /* h4 span {
