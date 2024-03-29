@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  background-color: gray;
+}
+
+h2 {
+  position: relative;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  cursor: default;
+  text-transform: uppercase;
+  font-weight: 500;
+}
