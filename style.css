@@ -40,9 +40,15 @@ h3 {
   text-transform: uppercase;
   font-weight: 500;
 }
+
 h3 span {
   color: #555;
   transition: 0.25s;
+}
+
+h3:hover span {
+    color: purple;
+    transition: 0.25d;
 }
 
 h4 {
