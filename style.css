@@ -60,10 +60,6 @@ h4 {
   font-weight: 500;
 }
 
-/* h4 span {
-  transition: 0.25s;
-} */
-
 @keyframes animateText {
   0%,
   20% {
